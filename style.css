@@ -78,19 +78,6 @@ button:hover {
 
 
 
-/*.historico {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100%;
-  background: #020617;
-  padding: 15px;
-  border-radius: 10px;
-  max-height: 200px;
-  overflow-y: auto;
-  text-align: left;
-}*/
-
 .historico {
   position: absolute;
   top: 60px;
@@ -154,4 +141,16 @@ button:hover {
 .btn-caixa {
   top: 45px;
   background: #f59e0b;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 350px;
+  height: auto;
 }
