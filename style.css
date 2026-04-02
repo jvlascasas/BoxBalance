@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.data {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.saldo {
+  font-size: 24px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 48%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.entrada {
+  background: #22c55e;
+}
+
+.saida {
+  background: #ef4444;
+}
+
+
+
+/*.historico {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+}*/
+
+.historico {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  width: 280px; /* 👈 tamanho pequeno */
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+.historico ul {
+  list-style: none;
+  padding: 0;
+  z-index: 10;
+}
+
+.historico li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 5px;
+}
+
+
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f87171;
+}
+
+.fechar:hover {
+  color: #ef4444;
+}
+
+.btn-historico,
+.btn-caixa {
+  position: absolute;
+  left: 10px;
+  padding: 6px 10px;
+  font-size: 12px;
+  width: auto;
+}
+
+.btn-historico {
+  top: 10px;
+  background: #373d46;
+}
+
+.btn-caixa {
+  top: 45px;
+  background: #f59e0b;
+}
